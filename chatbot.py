@@ -6,10 +6,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
 
-os.environ['OPENAI_API_KEY'] = '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'
-
-
-
+os.environ['OPENAI_API_KEY'] = 'open ai key'
 
 loader =TextLoader('sample.txt', 'r', encoding='utf-8', errors='ignore')
 print("successfully")
